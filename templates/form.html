@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>{{dv}}</h2>
+<table class="table table-striped">
+<form id="demoForm" action="{{url_for('demo',demovalue=dv)}}" method="POST">
+    {% for i in fl %}
+    <tr><td><label for="{{i}}">{{i}}</label></td>
+    <td><input type="number" step="0.00001" name="{{i}}" placeholder=" Enter {{i}}"></td></tr>
+    {% endfor %}
+    <tr><td><button type="Submit">Submit</button></td>
+    <td><button type="Reset">Reset</button></td></tr>
+</form>
+    <tr><td colspan="2">{{demo_description|safe}}</td></tr>
+    <tr><td colspan="2"><a href="/" type="button-link"><button>Return to Demonstration List</button></a></td></tr>
+</table>
+{% endblock main %}

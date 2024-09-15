@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>{{dv}}</h2>
+<table classs="table table-striped">
+<tr><td colspan="2" style="text-align: center;"><strong>Please use the buttons below to control the demonstration.</strong></td></tr>
+<tr><td colspan="2"><iframe src="{{url_for('static',filename=fn)}}" width="700px" height="600px"></iframe></td></tr>
+<tr><td colspan="2">{{demo_description|safe}}</td></tr>
+<tr><td><a href="/{{dv}}" type="button-link"><button>Back to Demonstration Form</button></td><td><a href="/" type="button-link"><button>Back to Demonstration List</button></td></tr>
+</table>
+{% endblock main %}

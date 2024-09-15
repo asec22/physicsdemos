@@ -1,0 +1,71 @@
+<p style="text-align: justify;">In this demonstration, we explore the relationship between the different differentiations of the position function.  In physics, our base measurements are time, mass, and length.  We combine length and time into a position function. In this demonstration, we use the position function of:</p>
+<p style="text-align: justify;">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mi>f</mi>
+    <mo stretchy="false">(</mo>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mn>720</mn>
+          <msub><mi>pop</mi></msub>
+        </mrow>
+        <msup><mi>t</mi><mn>6</mn></msup>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mn>120</mn>
+          <mo>&times;</mo
+          <msub><mi>crackle</mi></msub>
+        </mrow>
+        <msup><mi>t</mi><mn>5</mn></msup>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mn>24</mn>
+          <msub><mi>snap</mi></msub>
+        </mrow>
+        <msup><mi>t</mi><mn>4</mn></msup>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mn>6</mn>
+          <msub><mi>jerk</mi></msub>
+        </mrow>
+        <msup><mi>t</mi><mn>3</mn></msup>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <mrow>
+          <mn>2</mn>
+          <msub><mi>acceleration</mi></msub>
+        </mrow>
+        <msup><mi>t</mi><mn>2</mn></msup>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+        <msub><mi>velocity</mi></msub>
+        <mi>t</mi>
+      </mrow>
+      <mo>+</mo>
+      <msub><mi>position</mi></msub>
+    </mrow>
+  </mrow>
+</math>
+</p>
+<p style="text-align: justify;"> In this equation we have some unfamiliar terms. In order to find the motion with respect to time, we need to differentiate the equation with respect to time (<math><mrow><mi>df</mi>
+    <mo stretchy="false">(</mo>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo></mrow><mo>/</mo><mi>dt</mi></math>). We differentiate once, we have velocity.  Differentiate twice, we have acceleration. Three times, jerk. Four times, snap. Five times, crackle. Six times, pop.
+The plot demonstrates the motion due to the different terms with respect to time. </p>
+<p style="text-align: justify;">Some questions to consider when viewing the demonstration:</p>
+<ul>
+<li>Analyze the affect each derivative has on the position, velocity, and acceleration functions.</li>
+<li>We understand the concepts of poistion, velocity, and acceleration; but what everyday concepts does jerk, snap, crackle, and pop represent?</li>
+</ul>

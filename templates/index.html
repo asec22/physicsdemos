@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block main %}
+<table class="table table-striped ">
+    <tr><td colspan="2"><strong>Please select the physics demonstration you want to explore.</strong></td></tr>
+    {% for i in dl %}
+    <tr><td style="text-align: left;">{{i}}</td><td style="text-align: right;"><a href="/{{i}}" type="button-link"><button>Select</button></a></td></tr>
+    {% endfor %}
+</table>
+
+{% endblock main %}
+
+
+

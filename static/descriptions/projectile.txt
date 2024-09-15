@@ -1,0 +1,6 @@
+<p style="text-align: justify;"> This demonstration shows the projectile motion of two objects launched at from a positions ((<math><mrow><msub><mi>x</mi><mi>o1</mi></msub><mo>,</mo><msub><mi>y</mi><mi>o1</mi></msub></mrow></math>),(<math><mrow><msub><mi>x</mi><mi>o2</mi></msub><mo>,</mo><msub><mi>y</mi><mi>o2</mi></msub></mrow></math>)) with initial velocities (<math><mrow><msub><mi>v</mi><mi>o1</mi></msub></mrow></math>,<math><mrow><msub><mi>v</mi><mi>o2</mi></msub></mrow></math>) at an angles (<math><mrow><msub><mi>&theta;</mi><mi>o1</mi></msub></mrow></math>,<math><mrow><msub><mi>&theta;</mi><mi>o2</mi></msub></mrow></math>). Here are the <a href= "./static/equationfiles/projectilemotion.pdf" target=_blank>equations</a> we use for this demonstration.</p>
+<p style="text-align: justify;">>Some questions to consider when viewing the demonstration:</p>
+<ul>
+<li>Describe the effects of velocity, angle, and position on a projectile.</li>
+<li>Construct a configuration would maximize height and range.</li>
+</ul>
