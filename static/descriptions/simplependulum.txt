@@ -2,4 +2,7 @@
 <p style="text-align: justify;">While the html form is my design, the solution code came from the YouTube Channel <i>Good Vibrations with Freeball</i>, specifically the video <i><a href="https://youtu.be/_eZyTNthJG4?si=3JuqA5FLS-6dMdxk">Coding a Numerical Solution to the Simple Pendulum Problem using Python</a></i>. Download the base code from <a href="https://github.com/apf99"> Freeball's GitHub</a>. </p>
 <p style="text-align: justify;">Some questions to consider when viewing this demonstration:</p>
 <ul>
-<li>What are the effects 
+<li>Compare the effects of length and angle on the period of oscillation (the time to return to the initial position).</li>
+<li>Analyze the phase differeneces (the differences in position for a specific time) betwen the linear and nonlinear for different angles, time steps.</li>
+<li>In the world of devices using pendulums, what concerns do we have for constructing the devices.</li>
+</ul>
