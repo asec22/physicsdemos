@@ -1,0 +1,107 @@
+<p style="text-align: justify;"> In this demonstration, we set in motion (<math><msub><mi>v</mi><mi>o</mi></msub></math>) two blocks of the same mass down two inclined planes. The planes have the same angle (&theta;) as each other.  One plane is smooth while one plane is rough. The equations of motion for the blocks are:</p>
+<p style="text-aling: justify;"> <i>Soomth</i></p>
+
+<math display="block">
+        <mrow>
+            <msub><mi>a</mi><mi>smooth</mi></msub>
+            <mo>=</mo>
+            <mi>g</mi>
+            <mo>&sdot;</mo>
+            <mi>sin</mi>
+            <mo>(</mo>
+            <mi>&theta;</mi>
+            <mo>)</mo>
+        </mrow>
+    </math>
+<math display="block">
+        <mrow>
+            <msub><mi>x</mi><mi>smooth</mi></msub>
+            <mo>=</mo>
+            <msub><mi>v</mi><mn>0</mn></msub>
+            <mo>&sdot;</mo>
+            <mi>t</mi>
+            <mo>+</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mo>&sdot;</mo>
+            <msub><mi>a</mi><mi>smooth</mi></msub>
+            <mo>&sdot;</mo>
+            <msup><mi>t</mi><mn>2</mn></msup>
+        </mrow>
+    </math> 
+<math display="block">
+        <mrow>
+            <msub><mi>y</mi><mi>smooth</mi></msub>
+            <mo>=</mo>
+            <mo>-</mo>
+            <msub><mi>x</mi><mi>smooth</mi></msub>
+            <mo>&sdot;</mo>
+            <mi>tan</mi>
+            <mo>(</mo>
+            <mi>&theta;</mi>
+            <mo>)</mo>
+        </mrow>
+    </math>
+<p style="text-align: justify;"><i>Rough Motion</i></p>
+<math display="block">
+        <mrow>
+            <msub><mi>a</mi><mi>rough</mi></msub>
+            <mo>=</mo>
+            <mi>g</mi>
+            <mo>&sdot;</mo>
+            <mi>sin</mi>
+            <mo>(</mo>
+            <mi>&theta;</mi>
+            <mo>)</mo>
+            <mo>-</mo>
+            <msub><mi>&mu;</mi><mi>k</mi></msub>
+            <mo>&sdot;</mo>
+            <mi>g</mi>
+            <mo>&sdot;</mo>
+            <mi>cos</mi>
+            <mo>(</mo>
+            <mi>&theta;</mi>
+            <mo>)</mo>
+        </mrow>
+    </math>
+
+ <math display="block">
+        <mrow>
+            <msub><mi>x</mi><mi>rough</mi></msub>
+            <mo>=</mo>
+            <msub><mi>v</mi><mn>0</mn></msub>
+            <mo>&sdot;</mo>
+            <mi>t</mi>
+            <mo>+</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mo>&sdot;</mo>
+            <msub><mi>a</mi><mi>rough</mi></msub>
+            <mo>&sdot;</mo>
+            <msup><mi>t</mi><mn>2</mn></msup>
+        </mrow>
+    </math>
+
+<math display="block">
+        <mrow>
+            <msub><mi>y</mi><mi>rough</mi></msub>
+            <mo>=</mo>
+            <mo>-</mo>
+            <msub><mi>x</mi><mi>rough</mi></msub>
+            <mo>&sdot;</mo>
+            <mi>tan</mi>
+            <mo>(</mo>
+            <mi>&theta;</mi>
+            <mo>)</mo>
+        </mrow>
+    </math>
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>Compare the spacing between the smooth and rough as the angle increases.</li>
+<li>In the shallow angles, what happens to the rough block?</li>
+<li>Construct two real world solutions; one for the smooth and one for the rough inclined plane.</li>
+</ul> 

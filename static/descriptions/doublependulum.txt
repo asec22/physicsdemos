@@ -1,0 +1,7 @@
+<p style="text-align: justify;"> In this demonstration, we are creating a double pendulum of two massless strings with a mass on the end of each string.  The two strings are attached to each other at mass 1.  The solutions for the double pendulum are solved using the similar state space Runge Kutta method as we used for the simple pendulum.  The program is adapted from <a href = "http://www.physics.usyd.edu.au/~wheat/dpend_html/" target=_blank> Micheal Wheatland's Double Pendulum C program</a> at the University of Sydney. The equations and program are avaiable by clicking the link. </p>
+<p style="text-align: justify;"> Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li> Do you notice a pattern in the motion of the second mass of the pendulum?</li>
+<li> Compare the motion of the double pendulum when release above or below the plane of the pendulum.</li>
+<li> Describe a real world application for double pendulums.</li>
+</ul>

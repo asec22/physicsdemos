@@ -14,12 +14,14 @@ form_dictionary = {
     "Double Pendulum": ['Length 1 (m)', 'Length 2 (m)', 'Mass 1 (kg)','Mass 2 (kg)','Initial Angle 1 (degrees)', 'Initial Angle 2 (degrees)', 'Initial Angular Velocity 1 (m/s)', 'Angular Velocity 2 (m/s)'],
     'Inclined Plane':['Plane Angle (degrees, 0-80))','Initial Velocity (m/s)','Coefficient of Kinetic Friction']
 }
+
 description_dictionary = {"Linear Kinematics":"linear.txt", 
                           "Projectile Demonstration":"projectile.txt", 
                           "Simple Pendulum": "simplependulum.txt", 
-                          "Double Pendulum":"", 
-                          'Inclined Plane':''
+                          "Double Pendulum":"doublependulum.txt", 
+                          'Inclined Plane':'inclinedplane.txt'
 }
+
 demo_list = list(form_dictionary.keys())
 g = 9.81
 
