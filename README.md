@@ -2,7 +2,8 @@
 ## About
 Physics Demonstration Suite is a group of physics demonstrations using the Flask architecture and maplotlib.animations to bring to physics concepts.  An explanation and follow up questions are provided with each maplotlib.animation.  Updates will be provided as more demonstrations are created.
 ## Run Locally 
-To run the suite locally, make sure you have the latest Python distribution installed on your computer.  In the directory that you have cloned this repository, follow these steps:
+To run the suite locally, make sure you have the latest Python distribution installed on your computer.  In an empty director, follow these steps:
++ Run `git clone https://github.com/asec22/physicsdemos.git`.
 + Run `python -m venv ./venv` to create virtual environemnt.
 + Run `./venv/scripts/activate` to activate the virtual environment.
 + Run `python demo.py` to start the server and application.
