@@ -1,0 +1,64 @@
+<p style="text-align: justify;"> In this demonstration, we observe a <b>coupled spring-mass system</b>: two masses (<math><msub><mi>m</mi><mn>1</mn></msub></math>, <math><msub><mi>m</mi><mn>2</mn></msub></math>) are connected to fixed walls by outer springs of constant <math><mi>k</mi></math>, and to each other by a coupling spring of constant <math><msub><mi>k</mi><mi>c</mi></msub></math>. The equations of motion are:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>m</mi><mn>1</mn></msub>
+        <msub><mover><mi>x</mi><mo>&uml;</mo></mover><mn>1</mn></msub>
+        <mo>=</mo>
+        <mo>-</mo><mi>k</mi><msub><mi>x</mi><mn>1</mn></msub>
+        <mo>-</mo>
+        <msub><mi>k</mi><mi>c</mi></msub>
+        <mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo>
+    </mrow>
+</math>
+
+<math display="block">
+    <mrow>
+        <msub><mi>m</mi><mn>2</mn></msub>
+        <msub><mover><mi>x</mi><mo>&uml;</mo></mover><mn>2</mn></msub>
+        <mo>=</mo>
+        <mo>-</mo>
+        <msub><mi>k</mi><mi>c</mi></msub>
+        <mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo>
+        <mo>-</mo><mi>k</mi><msub><mi>x</mi><mn>2</mn></msub>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">For equal masses <math><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mi>m</mi></mrow></math>, the system has two <b>normal modes</b> with angular frequencies:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>&omega;</mi><mn>1</mn></msub>
+        <mo>=</mo>
+        <msqrt>
+            <mfrac><mi>k</mi><mi>m</mi></mfrac>
+        </msqrt>
+        <mspace width="1em"/>
+        <mtext>(in-phase mode)</mtext>
+    </mrow>
+</math>
+
+<math display="block">
+    <mrow>
+        <msub><mi>&omega;</mi><mn>2</mn></msub>
+        <mo>=</mo>
+        <msqrt>
+            <mfrac>
+                <mrow><mi>k</mi><mo>+</mo><mn>2</mn><msub><mi>k</mi><mi>c</mi></msub></mrow>
+                <mi>m</mi>
+            </mfrac>
+        </msqrt>
+        <mspace width="1em"/>
+        <mtext>(out-of-phase mode)</mtext>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">In the <i>in-phase mode</i> both masses move together in the same direction; the coupling spring is neither stretched nor compressed. In the <i>out-of-phase mode</i> the masses move in opposite directions. For unequal masses or mixed initial conditions the motion appears as a <b>superposition of both normal modes</b>, producing energy transfer (beating) between the two masses.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>Set both initial displacements equal and positive. Which normal mode does this excite?</li>
+<li>Set the initial displacements equal and opposite. Which normal mode does this excite?</li>
+<li>Set only one mass displaced. Describe how energy transfers between the masses over time.</li>
+<li>How does increasing the coupling spring constant <math><msub><mi>k</mi><mi>c</mi></msub></math> affect the rate of energy transfer?</li>
+</ul>

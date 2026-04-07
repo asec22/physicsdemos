@@ -1,0 +1,60 @@
+<p style="text-align: justify;"> In this demonstration, two balls collide in one dimension. Ball 1 (blue) begins on the left moving rightward with velocity <math><msub><mi>v</mi><mn>1</mn></msub></math>, and Ball 2 (red) begins on the right moving leftward with velocity <math><msub><mi>v</mi><mn>2</mn></msub></math>. The nature of the collision is controlled by the <i>coefficient of restitution</i> <math><mi>e</mi></math>, defined as the ratio of the relative speed of separation to the relative speed of approach:</p>
+
+<math display="block">
+    <mrow>
+        <mi>e</mi>
+        <mo>=</mo>
+        <mfrac>
+            <mrow><msub><mi>v</mi><mn>2</mn></msub><mo>&#x2032;</mo><mo>-</mo><msub><mi>v</mi><mn>1</mn></msub><mo>&#x2032;</mo></mrow>
+            <mrow><msub><mi>v</mi><mn>1</mn></msub><mo>-</mo><msub><mi>v</mi><mn>2</mn></msub></mrow>
+        </mfrac>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Combined with conservation of momentum, the post-collision velocities are:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>v</mi><mn>1</mn></msub><mo>&#x2032;</mo>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <msub><mi>m</mi><mn>1</mn></msub><msub><mi>u</mi><mn>1</mn></msub>
+                <mo>+</mo>
+                <msub><mi>m</mi><mn>2</mn></msub><msub><mi>u</mi><mn>2</mn></msub>
+                <mo>+</mo>
+                <msub><mi>m</mi><mn>2</mn></msub><mi>e</mi>
+                <mo>(</mo><msub><mi>u</mi><mn>2</mn></msub><mo>-</mo><msub><mi>u</mi><mn>1</mn></msub><mo>)</mo>
+            </mrow>
+            <mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow>
+        </mfrac>
+    </mrow>
+</math>
+
+<math display="block">
+    <mrow>
+        <msub><mi>v</mi><mn>2</mn></msub><mo>&#x2032;</mo>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <msub><mi>m</mi><mn>1</mn></msub><msub><mi>u</mi><mn>1</mn></msub>
+                <mo>+</mo>
+                <msub><mi>m</mi><mn>2</mn></msub><msub><mi>u</mi><mn>2</mn></msub>
+                <mo>+</mo>
+                <msub><mi>m</mi><mn>1</mn></msub><mi>e</mi>
+                <mo>(</mo><msub><mi>u</mi><mn>1</mn></msub><mo>-</mo><msub><mi>u</mi><mn>2</mn></msub><mo>)</mo>
+            </mrow>
+            <mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow>
+        </mfrac>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Momentum is conserved in all collisions. Kinetic energy is conserved only when <math><mrow><mi>e</mi><mo>=</mo><mn>1</mn></mrow></math> (perfectly elastic). When <math><mrow><mi>e</mi><mo>=</mo><mn>0</mn></mrow></math> the collision is perfectly inelastic and the balls stick together. The animation displays both momentum and kinetic energy before and after the collision.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>Set <math><mrow><mi>e</mi><mo>=</mo><mn>1</mn></mrow></math> and equal masses. What happens to each ball's velocity after the collision?</li>
+<li>Set <math><mrow><mi>e</mi><mo>=</mo><mn>0</mn></mrow></math>. Is kinetic energy conserved? Where does the lost energy go?</li>
+<li>Try a very heavy Ball 2 at rest. How does the mass ratio affect the outcome?</li>
+<li>Identify a real-world collision that is approximately elastic and one that is approximately inelastic.</li>
+</ul>

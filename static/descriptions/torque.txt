@@ -1,0 +1,79 @@
+<p style="text-align: justify;"> In this demonstration, we explore torque acting on a uniform beam of mass <math><mi>m</mi></math> and length <math><mi>L</mi></math>, pivoted at one end. Two torques act about the pivot: the torque due to the beam's weight (acting at its centre of mass, <math><mrow><mi>L</mi><mo>/</mo><mn>2</mn></mrow></math>), and a user-applied force <math><mi>F</mi></math> at angle <math><mi>&phi;</mi></math> relative to the beam at its free end. Torque is defined as the cross product of the position vector and the force:</p>
+
+<math display="block">
+    <mrow>
+        <mi>&tau;</mi>
+        <mo>=</mo>
+        <mi>r</mi>
+        <mo>&sdot;</mo>
+        <mi>F</mi>
+        <mo>&sdot;</mo>
+        <mi>sin</mi>
+        <mo>(</mo>
+        <mi>&phi;</mi>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">The two individual torques about the pivot are:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>&tau;</mi><mi>weight</mi></msub>
+        <mo>=</mo>
+        <mo>-</mo>
+        <mi>m</mi>
+        <mi>g</mi>
+        <mfrac><mi>L</mi><mn>2</mn></mfrac>
+    </mrow>
+</math>
+
+<math display="block">
+    <mrow>
+        <msub><mi>&tau;</mi><mi>F</mi></msub>
+        <mo>=</mo>
+        <mi>F</mi>
+        <mo>&sdot;</mo>
+        <mi>L</mi>
+        <mo>&sdot;</mo>
+        <mi>sin</mi>
+        <mo>(</mo>
+        <mi>&phi;</mi>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">The net torque produces an angular acceleration via Newton's second law for rotation, where <math><mi>I</mi></math> is the moment of inertia of the beam about its pivot end:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>&tau;</mi><mi>net</mi></msub>
+        <mo>=</mo>
+        <mi>I</mi>
+        <mo>&sdot;</mo>
+        <mi>&alpha;</mi>
+        <mspace width="2em"/>
+        <mi>I</mi>
+        <mo>=</mo>
+        <mfrac><mn>1</mn><mn>3</mn></mfrac>
+        <mi>m</mi>
+        <msup><mi>L</mi><mn>2</mn></msup>
+        <mspace width="2em"/>
+        <mi>&alpha;</mi>
+        <mo>=</mo>
+        <mfrac>
+            <msub><mi>&tau;</mi><mi>net</mi></msub>
+            <mi>I</mi>
+        </mfrac>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">The beam rotates counter-clockwise when <math><mrow><msub><mi>&tau;</mi><mi>net</mi></msub><mo>&gt;</mo><mn>0</mn></mrow></math> and clockwise when <math><mrow><msub><mi>&tau;</mi><mi>net</mi></msub><mo>&lt;</mo><mn>0</mn></mrow></math>. The title displays all three torque values. The beam stops when it reaches &plusmn;90&deg;.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>At what force angle <math><mi>&phi;</mi></math> is the applied torque maximised for a given force magnitude?</li>
+<li>Find a combination of inputs where the beam is in rotational equilibrium (<math><mrow><msub><mi>&tau;</mi><mi>net</mi></msub><mo>=</mo><mn>0</mn></mrow></math>).</li>
+<li>How does doubling the beam length affect the moment of inertia and the angular acceleration?</li>
+<li>Identify a real-world example where controlling torque about a pivot is important.</li>
+</ul>

@@ -1,0 +1,67 @@
+<p style="text-align: justify;"> In this demonstration, we explore the <b>superposition of two traveling sound waves</b>. Each wave has a frequency (<math><msub><mi>f</mi><mn>1</mn></msub></math>, <math><msub><mi>f</mi><mn>2</mn></msub></math>) and amplitude (<math><msub><mi>A</mi><mn>1</mn></msub></math>, <math><msub><mi>A</mi><mn>2</mn></msub></math>). The displacement of each traveling wave as a function of position and time is:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>y</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo>)</mo>
+        <mo>=</mo>
+        <msub><mi>A</mi><mn>1</mn></msub>
+        <mo>&sdot;</mo>
+        <mi>sin</mi>
+        <mo>(</mo>
+        <mn>2</mn><mi>&pi;</mi><msub><mi>f</mi><mn>1</mn></msub><mi>x</mi>
+        <mo>-</mo>
+        <mn>2</mn><mi>&pi;</mi><msub><mi>f</mi><mn>1</mn></msub><mi>t</mi>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<math display="block">
+    <mrow>
+        <msub><mi>y</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo>)</mo>
+        <mo>=</mo>
+        <msub><mi>A</mi><mn>2</mn></msub>
+        <mo>&sdot;</mo>
+        <mi>sin</mi>
+        <mo>(</mo>
+        <mn>2</mn><mi>&pi;</mi><msub><mi>f</mi><mn>2</mn></msub><mi>x</mi>
+        <mo>-</mo>
+        <mn>2</mn><mi>&pi;</mi><msub><mi>f</mi><mn>2</mn></msub><mi>t</mi>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">By the <b>Principle of Superposition</b>, the resultant wave is the sum:</p>
+
+<math display="block">
+    <mrow>
+        <mi>y</mi>
+        <mo>=</mo>
+        <msub><mi>y</mi><mn>1</mn></msub>
+        <mo>+</mo>
+        <msub><mi>y</mi><mn>2</mn></msub>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">When the two frequencies are close but not equal, the superposition produces <b>beats</b> &mdash; a periodic variation in amplitude at the <i>beat frequency</i>:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>f</mi><mi>beat</mi></msub>
+        <mo>=</mo>
+        <mo>|</mo>
+        <msub><mi>f</mi><mn>1</mn></msub>
+        <mo>-</mo>
+        <msub><mi>f</mi><mn>2</mn></msub>
+        <mo>|</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">The top two panels show each individual wave; the bottom panel shows their superposition. The title displays the computed beat frequency.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>Set <math><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><msub><mi>f</mi><mn>2</mn></msub></mrow></math>. What does the superposition look like? What happens to the beat frequency?</li>
+<li>Set <math><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></mrow></math> and <math><mrow><msub><mi>f</mi><mn>2</mn></msub><mo>=</mo><mn>6</mn></mrow></math>. How many amplitude peaks appear per second in the superposition?</li>
+<li>How does changing the amplitudes affect the superposition when the two waves are out of phase?</li>
+<li>Identify a real-world situation where beats are heard between two sound sources.</li>
+</ul>

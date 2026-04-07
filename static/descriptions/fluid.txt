@@ -1,0 +1,74 @@
+<p style="text-align: justify;"> In this demonstration, we observe an ideal fluid flowing through a pipe that narrows at its midsection (a <i>Venturi tube</i>). Two fundamental principles govern the flow: the <b>Continuity Equation</b> and <b>Bernoulli's Equation</b>.</p>
+
+<p style="text-align: justify;"><i>Continuity Equation</i> &mdash; for an incompressible fluid the volumetric flow rate is constant:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>A</mi><mn>1</mn></msub>
+        <msub><mi>v</mi><mn>1</mn></msub>
+        <mo>=</mo>
+        <msub><mi>A</mi><mn>2</mn></msub>
+        <msub><mi>v</mi><mn>2</mn></msub>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">So the fluid speeds up when the pipe narrows:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>v</mi><mn>2</mn></msub>
+        <mo>=</mo>
+        <mfrac>
+            <mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>v</mi><mn>1</mn></msub></mrow>
+            <msub><mi>A</mi><mn>2</mn></msub>
+        </mfrac>
+    </mrow>
+</math>
+
+<p style="text-align: justify;"><i>Bernoulli's Equation</i> &mdash; for a horizontal, steady, inviscid flow the total mechanical energy per unit volume is constant:</p>
+
+<math display="block">
+    <mrow>
+        <msub><mi>P</mi><mn>1</mn></msub>
+        <mo>+</mo>
+        <mfrac><mn>1</mn><mn>2</mn></mfrac>
+        <mi>&rho;</mi>
+        <msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup>
+        <mo>=</mo>
+        <msub><mi>P</mi><mn>2</mn></msub>
+        <mo>+</mo>
+        <mfrac><mn>1</mn><mn>2</mn></mfrac>
+        <mi>&rho;</mi>
+        <msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Solving for the pressure difference:</p>
+
+<math display="block">
+    <mrow>
+        <mi>&Delta;</mi><mi>P</mi>
+        <mo>=</mo>
+        <msub><mi>P</mi><mn>2</mn></msub>
+        <mo>-</mo>
+        <msub><mi>P</mi><mn>1</mn></msub>
+        <mo>=</mo>
+        <mfrac><mn>1</mn><mn>2</mn></mfrac>
+        <mi>&rho;</mi>
+        <mo>(</mo>
+        <msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup>
+        <mo>-</mo>
+        <msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Because speed increases in the throat, pressure <i>decreases</i> there &mdash; this is the <b>Venturi effect</b>. The animation shows particles (water, <math><mrow><mi>&rho;</mi><mo>=</mo><mn>1000</mn></mrow></math> kg/m&sup3;) flowing through the pipe and bunching closer together in the narrow section, illustrating the increase in speed. The title displays the computed inlet velocity, throat velocity, and pressure difference.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>As you decrease the throat area, what happens to the throat velocity and the pressure difference?</li>
+<li>If the throat area equals the inlet area, what does Bernoulli's equation predict for <math><mi>&Delta;P</mi></math>?</li>
+<li>Identify a real-world device or phenomenon that exploits the Venturi effect.</li>
+<li>What assumptions (ideal fluid, no viscosity, steady flow) could cause a real pipe to differ from these predictions?</li>
+</ul>

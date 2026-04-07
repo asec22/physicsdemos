@@ -1,0 +1,82 @@
+<p style="text-align: justify;"> In this demonstration, we explore the oscillation of a mass (<math><mi>m</mi></math>) attached to a spring with spring constant (<math><mi>k</mi></math>), displaced an initial distance (<math><mi>A</mi></math>) from its equilibrium position. By Hooke's Law, the restoring force on the mass is:</p>
+
+<math display="block">
+    <mrow>
+        <mi>F</mi>
+        <mo>=</mo>
+        <mo>-</mo>
+        <mi>k</mi>
+        <mo>&sdot;</mo>
+        <mi>x</mi>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Applying Newton's second law gives the equation of motion:</p>
+
+<math display="block">
+    <mrow>
+        <mi>m</mi>
+        <mo>&sdot;</mo>
+        <mover><mi>x</mi><mo>&uml;</mo></mover>
+        <mo>=</mo>
+        <mo>-</mo>
+        <mi>k</mi>
+        <mo>&sdot;</mo>
+        <mi>x</mi>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">The solution describes simple harmonic motion:</p>
+
+<math display="block">
+    <mrow>
+        <mi>x</mi>
+        <mo>(</mo><mi>t</mi><mo>)</mo>
+        <mo>=</mo>
+        <mi>A</mi>
+        <mo>&sdot;</mo>
+        <mi>cos</mi>
+        <mo>(</mo>
+        <mi>&omega;</mi>
+        <mo>&sdot;</mo>
+        <mi>t</mi>
+        <mo>)</mo>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Where the angular frequency and period are:</p>
+
+<math display="block">
+    <mrow>
+        <mi>&omega;</mi>
+        <mo>=</mo>
+        <msqrt>
+            <mfrac>
+                <mi>k</mi>
+                <mi>m</mi>
+            </mfrac>
+        </msqrt>
+        <mspace width="2em"/>
+        <mi>T</mi>
+        <mo>=</mo>
+        <mfrac>
+            <mrow><mn>2</mn><mi>&pi;</mi></mrow>
+            <mi>&omega;</mi>
+        </mfrac>
+        <mo>=</mo>
+        <mn>2</mn><mi>&pi;</mi>
+        <msqrt>
+            <mfrac>
+                <mi>m</mi>
+                <mi>k</mi>
+            </mfrac>
+        </msqrt>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>How does increasing the mass affect the period of oscillation? How does increasing the spring constant affect it?</li>
+<li>The amplitude <math><mi>A</mi></math> does not appear in the formula for <math><mi>T</mi></math>. What does this tell you about the relationship between amplitude and period?</li>
+<li>Identify a real-world system that behaves like a spring-mass oscillator.</li>
+</ul>

@@ -1,0 +1,99 @@
+<p style="text-align: justify;"> In this demonstration, we explore the gravitational interaction between two masses 
+(<math><msub><mi>m</mi><mn>1</mn></msub></math>, <math><msub><mi>m</mi><mn>2</mn></msub></math>) separated by 
+a distance (<math><mi>r</mi></math>), and observe the angular velocity of <math><msub><mi>m</mi><mn>1</mn></msub></math> 
+orbiting <math><msub><mi>m</mi><mn>2</mn></msub></math>. The gravitational force between the two masses is:</p>
+
+<math display="block">
+    <mrow>
+        <mi>F</mi>
+        <mo>=</mo>
+        <mi>G</mi>
+        <mo>&sdot;</mo>
+        <mfrac>
+            <mrow>
+                <msub><mi>m</mi><mn>1</mn></msub>
+                <mo>&sdot;</mo>
+                <msub><mi>m</mi><mn>2</mn></msub>
+            </mrow>
+            <msup><mi>r</mi><mn>2</mn></msup>
+        </mfrac>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">For a circular orbit, this gravitational force acts as the centripetal force on 
+<math><msub><mi>m</mi><mn>1</mn></msub></math>:</p>
+
+<math display="block">
+    <mrow>
+        <mi>G</mi>
+        <mo>&sdot;</mo>
+        <mfrac>
+            <mrow>
+                <msub><mi>m</mi><mn>1</mn></msub>
+                <mo>&sdot;</mo>
+                <msub><mi>m</mi><mn>2</mn></msub>
+            </mrow>
+            <msup><mi>r</mi><mn>2</mn></msup>
+        </mfrac>
+        <mo>=</mo>
+        <msub><mi>m</mi><mn>1</mn></msub>
+        <mo>&sdot;</mo>
+        <msup><mi>&omega;</mi><mn>2</mn></msup>
+        <mo>&sdot;</mo>
+        <mi>r</mi>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Solving for the angular velocity <math><mi>&omega;</mi></math>:</p>
+
+<math display="block">
+    <mrow>
+        <mi>&omega;</mi>
+        <mo>=</mo>
+        <msqrt>
+            <mfrac>
+                <mrow>
+                    <mi>G</mi>
+                    <mo>&sdot;</mo>
+                    <msub><mi>m</mi><mn>2</mn></msub>
+                </mrow>
+                <msup><mi>r</mi><mn>3</mn></msup>
+            </mfrac>
+        </msqrt>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Where <math><mi>G</mi></math> is the universal gravitational constant 
+<math><mrow><mi>G</mi><mo>=</mo><mn>6.674</mn><mo>&times;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup></mrow></math> 
+N&middot;m&sup2;/kg&sup2;. The orbital period is then:</p>
+
+<math display="block">
+    <mrow>
+        <mi>T</mi>
+        <mo>=</mo>
+        <mfrac>
+            <mrow><mn>2</mn><mi>&pi;</mi></mrow>
+            <mi>&omega;</mi>
+        </mfrac>
+        <mo>=</mo>
+        <mn>2</mn><mi>&pi;</mi>
+        <msqrt>
+            <mfrac>
+                <msup><mi>r</mi><mn>3</mn></msup>
+                <mrow>
+                    <mi>G</mi>
+                    <mo>&sdot;</mo>
+                    <msub><mi>m</mi><mn>2</mn></msub>
+                </mrow>
+            </mfrac>
+        </msqrt>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>How does increasing the mass of <math><msub><mi>m</mi><mn>2</mn></msub></math> affect the angular velocity of <math><msub><mi>m</mi><mn>1</mn></msub></math>?</li>
+<li>How does doubling the orbital radius <math><mi>r</mi></math> affect the angular velocity? What power law does this illustrate?</li>
+<li>Notice that the angular velocity is independent of <math><msub><mi>m</mi><mn>1</mn></msub></math>. Can you explain why physically?</li>
+<li>Identify a real-world example of this type of orbital motion in our solar system.</li>
+</ul>

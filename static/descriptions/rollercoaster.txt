@@ -1,0 +1,45 @@
+<p style="text-align: justify;"> In this demonstration, a cart travels along a roller coaster track with an initial height (<math><msub><mi>h</mi><mn>0</mn></msub></math>) and two subsequent hills of heights (<math><msub><mi>h</mi><mn>1</mn></msub></math>, <math><msub><mi>h</mi><mn>2</mn></msub></math>). The motion is governed by the conservation of mechanical energy. At any point on the track:</p>
+
+<math display="block">
+    <mrow>
+        <mfrac><mn>1</mn><mn>2</mn></mfrac>
+        <mi>m</mi>
+        <msup><mi>v</mi><mn>2</mn></msup>
+        <mo>+</mo>
+        <mi>m</mi>
+        <mi>g</mi>
+        <mi>h</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <mi>g</mi>
+        <msub><mi>h</mi><mn>0</mn></msub>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Solving for the speed of the cart at any height <math><mi>h</mi></math>:</p>
+
+<math display="block">
+    <mrow>
+        <mi>v</mi>
+        <mo>=</mo>
+        <msqrt>
+            <mn>2</mn>
+            <mi>g</mi>
+            <mo>(</mo>
+            <msub><mi>h</mi><mn>0</mn></msub>
+            <mo>-</mo>
+            <mi>h</mi>
+            <mo>)</mo>
+        </msqrt>
+    </mrow>
+</math>
+
+<p style="text-align: justify;">Note that the mass <math><mi>m</mi></math> cancels — the speed depends only on the <i>height difference</i>, not the mass of the cart. The cart can only reach a hill if that hill's height is less than the initial height <math><msub><mi>h</mi><mn>0</mn></msub></math>. If a hill exceeds <math><msub><mi>h</mi><mn>0</mn></msub></math>, the cart will stop before reaching the peak.</p>
+
+<p style="text-align: justify;">Some questions to consider while viewing the demonstration:</p>
+<ul>
+<li>What happens to the cart's speed at the bottom of a valley compared to the top of a hill?</li>
+<li>Set a hill height equal to the initial height. Does the cart make it over? What does this reveal about energy conservation?</li>
+<li>Since mass cancels out, would a heavier cart travel the same path at the same speed? Explain why or why not in a real-world scenario.</li>
+<li>Identify where on the track the cart has maximum kinetic energy and maximum potential energy.</li>
+</ul>
